@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Shapiro Undergraduate Library",
+        "img_url": "static/images/shapiro.jpeg",
+        "place_id": "ChIJzbU38USuPIgRA37lIk4WV4Q",
+        "address": "919 S University Ave, Ann Arbor, MI 48109",
+        "food": true,
+        "noise": "medium",
+        "location": "central",
+        "study_rooms": true,
+        "description": "UGLi description here"
+    },
+    {
+        "name": "Ross School of Business",
+        "img_url": "static/images/ross.jpeg",
+        "place_id": "ChIJkyouNEauPIgRhYtgXkia_aM",
+        "address": "701 Tappan Ave, Ann Arbor, MI 48109",
+        "food": true,
+        "noise": "loud",
+        "location": "central",
+        "study_rooms": true,
+        "description": "Ross description here"
+    },
+    {
+        "name": "Duderstadt Library",
+        "img_url": "static/images/dude.jpeg",
+        "place_id": "ChIJ7QiaGYauPIgRmctzbO8dGIA",
+        "address": "2281 Bonisteel Blvd, Ann Arbor, MI 48109",
+        "food": true,
+        "noise": "quiet",
+        "location": "north",
+        "study_rooms": true,
+        "description": "Dude description here"
+    },
+    {
+        "name": "Hatcher Graduate Library",
+        "img_url": "static/images/hatcher.jpeg",
+        "place_id": "ChIJ-Wmg1kauPIgRAXhtCjos_hI",
+        "address": "913 S University Ave, Ann Arbor, MI 48109",
+        "food": false,
+        "noise": "quiet",
+        "location": "central",
+        "study_rooms": false,
+        "description": "Hatcher description here"
+    }
+
+]
