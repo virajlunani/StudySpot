@@ -1,0 +1,11 @@
+.header > img {
+    float: left;
+    height: 150px;
+    width: auto;
+}
+.header {
+    font-family: 'Poppins', serif;
+    display: inline-block;
+    font-size:25px;
+    white-space : nowrap;
+}
