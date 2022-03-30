@@ -8,7 +8,7 @@
         "noise": "medium",
         "location": "central",
         "study_rooms": true,
-        "description": "UGLi description here"
+        "description": "The Shapiro Undergraduate Library is a prime location to meet for a group project, find a study nook, or pull a cram session — fueled with food and drink from the first-floor café. First and second floor are louder and most commonly used to work with others, while third and fourth floor are quiet and focused spaces."
     },
     {
         "name": "Ross School of Business",
@@ -19,7 +19,7 @@
         "noise": "loud",
         "location": "central",
         "study_rooms": true,
-        "description": "Ross description here"
+        "description": "Ross School of Business is a great spot to meet with groups or work individually. With an open floor plan you are always surrounded by others doing work. With Starbucks and a food cafe located with Ross you will always stay fueled."
     },
     {
         "name": "Duderstadt Library",
@@ -30,7 +30,7 @@
         "noise": "quiet",
         "location": "north",
         "study_rooms": true,
-        "description": "Dude description here"
+        "description": "Duderstadt Library is located on north campus with four floors of productive workspace. Many spots to meet as a group on the first and second floors and work by yourself on the third floor. With a cafe on the first floor you can grab any drink and a quick snack."
     },
     {
         "name": "Hatcher Graduate Library",
@@ -41,7 +41,94 @@
         "noise": "quiet",
         "location": "central",
         "study_rooms": false,
-        "description": "Hatcher description here"
+        "description": "Hatcher Graduate Library is a quiet workplace for individuals to get their work done by themselves."
+    },
+    {
+        "name": "Literature, Science, and the Arts Building",
+        "img_url": "static/images/lsa.jpeg",
+        "place_id": "ChIJJexPoDiuPIgRvKb7HPkeDJY",
+        "address": "500 S State St #2005, Ann Arbor, MI 48109",
+        "food": true,
+        "noise": "medium",
+        "location": "central",
+        "study_rooms": true,
+        "description": "Literature, Science, and the Arts Building has an open floor plan with many desks and seats to work with others or by yourself. There is also a to-go market which offers you quick snacks and cold sandwiches."
+    },
+    {
+        "name": "North Quad",
+        "img_url": "static/images/nq.jpeg",
+        "place_id": "ChIJy_fxa0CuPIgRWmk6N0CQ0u8",
+        "address": "105 S State St, Ann Arbor, MI 48109",
+        "food": true,
+        "noise": "loud",
+        "location": "central",
+        "study_rooms": true,
+        "description": "North Quad is a building with many open spaces throughout to work where you can also reserve study rooms. There is also a dining hall attached to the building."
+    },
+    {
+        "name": "Palmer Commons",
+        "img_url": "static/images/palmer.jpeg",
+        "place_id": "ChIJ-Uj5XEKuPIgRt-3r7ouvpag",
+        "address": "100 Washtenaw Ave, Ann Arbor, MI 48109",
+        "food": false,
+        "noise": "quite",
+        "location": "central",
+        "study_rooms": false,
+        "description": "Palmer Commons is an open layout with different types of seating from individual tables to booths for groups to use."
+    },
+    {
+        "name": "Trotter Multicultural Center",
+        "img_url": "static/images/trotter.jpeg",
+        "place_id": "ChIJYXlrJluuPIgRB9zXSBQnskI",
+        "address": "428 S State St, Ann Arbor, MI 48109, USA",
+        "food": false,
+        "noise": "medium",
+        "location": "central",
+        "study_rooms": true,
+        "description": "Trotter Multicultural Center is a great place for you to meet with your group with many different meeting rooms."
+    },
+    {
+        "name": "Bob and Betty Beyster Building (BBB)",
+        "img_url": "static/images/bbb.jpeg",
+        "place_id": "ChIJD4gbWYauPIgRQo3U-cGm4XI",
+        "address": "2260 Hayward St, Ann Arbor, MI 48109, USA",
+        "food": false,
+        "noise": "loud",
+        "location": "north",
+        "study_rooms": false,
+        "description": "The BBB has many tables and couches if you are getting work done on your laptop. If you need a study break you can also use their ping pong tables."
+    },
+    {
+        "name": "Ford Motor Company Robotics Building",
+        "img_url": "static/images/ford.jpeg",
+        "place_id": "ChIJ-zN4LNevPIgRyrKxVHXZ5gk",
+        "address": "2505 Hayward St, Ann Arbor, MI 48109, USA",
+        "food": false,
+        "noise": "medium",
+        "location": "north",
+        "study_rooms": false,
+        "description": "Ford Motor Company Robotics Building is one of the newest buildings on campus with four open floors where you can work as a group or by yourself."
+    },
+    {
+        "name": "George G. Brown Laboratories (GG Brown)",
+        "img_url": "static/images/gg.jpeg",
+        "place_id": "ChIJ2U0UMoSuPIgR3SQGyfZMXVw",
+        "address": "2350 Hayward St, Ann Arbor, MI 48109, USA",
+        "food": false,
+        "noise": "medium",
+        "location": "north",
+        "study_rooms": false,
+        "description": "GG Brown is open 24/7 with access to computer labs and open work spaces to work with yourself or with a team."
+    },
+    {
+        "name": "Taubman Health Sciences Library",
+        "img_url": "static/images/taubman.jpeg",
+        "place_id": "ChIJcwqXvWmuPIgRkADfWl5dXDE",
+        "address": "1135 Catherine St, Ann Arbor, MI 48109, USA",
+        "food": false,
+        "noise": "medium",
+        "location": "central",
+        "study_rooms": true,
+        "description": "Taubman Health Sciences Library supports the research and curricular needs of the university's health sciences schools, Michigan Medicine, and associated disciplines. Collaborate with an expert, get help with assessment and evaluation, and more."
     }
-
 ]
