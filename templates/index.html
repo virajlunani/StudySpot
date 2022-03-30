@@ -15,19 +15,18 @@
     <div class="subhead">
         <h2>Please select your preferences</h2>
     </div>
-    <form action="/" method="post" enctype="multipart/form-data">
-        <p>Noise Level:</p>
-        <input type="radio" id="silent" name="noise" value="silent">
-        <label for="silent">Silent</label><br>
-        <input type="radio" id="medium" name="noise" value="medium">
-        <label for="medium">Medium</label><br>
-        <input type="radio" id="loud" name="noise" value="loud">
-        <label for="loud">Loud</label>
-
-
-
-        <br>
-
+    <div class="preferences">
+        <form action="/" method="post" enctype="multipart/form-data">
+            <p>Noise Level:</p>
+            <input type="radio" id="silent" name="noise" value="silent">
+            <label for="silent">Silent</label><br>
+            <input type="radio" id="medium" name="noise" value="medium">
+            <label for="medium">Medium</label><br>
+            <input type="radio" id="loud" name="noise" value="loud">
+            <label for="loud">Loud</label>
+            <br>
+    </div>
+    <div class="preferences">
         <p>Location:</p>
         <input type="radio" id="north" name="location" value="north">
         <label for="north">North Campus</label><br>
@@ -38,7 +37,8 @@
 
         <br>
         <br>
-
+    </div>
+    <div class="preferences">
         <input type="checkbox" id="open_now" name="open_now" value="open_now">
         <label for="open_now">Open Now</label><br>
 
@@ -48,23 +48,29 @@
         <br>
         <input type="checkbox" id="study_rooms" name="study_rooms" value="study_rooms">
         <label for="study_rooms">Study Rooms</label><br>
-
-
         <input type="submit" value="Search">
+        <br>
+        <br>
+    </div>
 
-        {% for result in results %}
+
+    {% for result in results %}
+    <div class="card">
         <h2>{{ result.name }}</h2>
         <img src="{{result.img_url}}">
-        <p>Address: {{ result.address }}</p>
-        {% if result.food %}
-        <p>This location has food options!</p>
-        {% endif %}
-        {% if result.study_rooms %}
-        <p>This location has study rooms!</p>
-        {% endif %}
-        <p>Description: {{ result.description }}</p>
-        <br>
-        {% endfor %}
+        <div class="card-content">
+            <p>Address: {{ result.address }}</p>
+            {% if result.food %}
+            <p>This location has food options!</p>
+            {% endif %}
+            {% if result.study_rooms %}
+            <p>This location has study rooms!</p>
+            {% endif %}
+            <p>Description: {{ result.description }}</p>
+            <br>
+        </div>
+    </div>
+    {% endfor %}
     </form>
 </body>
 
