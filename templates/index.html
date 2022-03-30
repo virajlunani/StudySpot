@@ -19,7 +19,7 @@
         <div class="preferences">
             <form action="/" method="post" enctype="multipart/form-data">
             <p>Noise Level:</p>
-            
+
             <input type="radio" id="silent" name="noise" value="silent">
             <label for="silent">Silent</label>
             <input type="radio" id="medium" name="noise" value="medium">
@@ -27,8 +27,8 @@
             <input type="radio" id="loud" name="noise" value="loud">
             <label for="loud">Loud</label>
             <br>
-                
-                
+
+
         </div>
         <div class="preferences">
             <p>Location:</p>
@@ -38,18 +38,18 @@
             <label for="central">Central Campus</label>
             <input type="radio" id="medical" name="location" value="medical">
             <label for="medical">Medical Campus</label>
-    
+
             <br>
             <br>
         </div>
         <div class="preferences">
             <input type="checkbox" id="open_now" name="open_now" value="open_now">
             <label for="open_now">Open Now</label>
-    
-            
+
+
             <input type="checkbox" id="food" name="food" value="food">
             <label for="food">Food</label>
-            
+
             <input type="checkbox" id="study_rooms" name="study_rooms" value="study_rooms">
             <label for="study_rooms">Study Rooms</label><br>
             <br>
@@ -58,30 +58,30 @@
             <br>
         </div>
     </div>
-    
 
-
-    {% for result in results %}
-    <div class="card">
-        <h2>{{ result.name }}</h2>
-        <img src="{{result.img_url}}">
-        <div class="card-content">
-            <p><a class="bold">Address:</a> <a target="_blank" href="{{ result.link }}">{{ result.address }}</a></p>
-            {% if result.food %}
-            <p>Food <img class="check" src="static/images/StudySpot-logos/green-check.png"></p>
-            {% else %}
-            <p>Food <img class="check" src="static/images/StudySpot-logos/red-x.png"></p>
-            {% endif %}
-            {% if result.study_rooms %}
-            <p>Study Rooms <img class="check" src="static/images/StudySpot-logos/green-check.png"></p>
-            {% else %}
-            <p>Study Rooms <img class="check" src="static/images/StudySpot-logos/red-x.png"></p>
-            {% endif %}
-            <p><a class="bold">Description:</a> {{ result.description }}</p>
-            <br>
+    <div class="row">
+      {% for result in results %}
+        <div class="card">
+            <h2>{{ result.name }}</h2>
+            <img src="{{result.img_url}}">
+            <div class="card-content">
+                <p><a class="bold">Address:</a> <a target="_blank" href="{{ result.link }}">{{ result.address }}</a></p>
+                {% if result.food %}
+                <p>Food <img class="check" src="static/images/StudySpot-logos/green-check.png"></p>
+                {% else %}
+                <p>Food <img class="check" src="static/images/StudySpot-logos/red-x.png"></p>
+                {% endif %}
+                {% if result.study_rooms %}
+                <p>Study Rooms <img class="check" src="static/images/StudySpot-logos/green-check.png"></p>
+                {% else %}
+                <p>Study Rooms <img class="check" src="static/images/StudySpot-logos/red-x.png"></p>
+                {% endif %}
+                <p><a class="bold">Description:</a> {{ result.description }}</p>
+                <br>
+            </div>
         </div>
+      {% endfor %}
     </div>
-    {% endfor %}
     </form>
 </body>
 
