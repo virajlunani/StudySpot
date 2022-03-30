@@ -30,7 +30,7 @@
         "address": "2281 Bonisteel Blvd, Ann Arbor, MI 48109",
         "link": "https://www.google.com/maps/place/James+and+Anne+Duderstadt+Center/@42.2911672,-83.7179119,17z/data=!3m1!4b1!4m5!3m4!1s0x883cae86199a08ed:0x80181def6c73cb99!8m2!3d42.2911633!4d-83.7157179",
         "food": true,
-        "noise": "quiet",
+        "noise": "silent",
         "location": "north",
         "study_rooms": true,
         "description": "Duderstadt Library is located on north campus with four floors of productive workspace. Many spots to meet as a group on the first and second floors and work by yourself on the third floor. With a cafe on the first floor you can grab any drink and a quick snack."
@@ -42,7 +42,7 @@
         "address": "913 S University Ave, Ann Arbor, MI 48109",
         "link": "https://www.google.com/maps/place/Harlan+Hatcher+Graduate+Library/@42.2763381,-83.7401751,17z/data=!3m1!4b1!4m5!3m4!1s0x883cae46d6a069f9:0x12fe2c3a0a6d7801!8m2!3d42.2763356!4d-83.7378848",
         "food": false,
-        "noise": "quiet",
+        "noise": "silent",
         "location": "central",
         "study_rooms": false,
         "description": "Hatcher Graduate Library is a quiet workplace for individuals to get their work done by themselves."

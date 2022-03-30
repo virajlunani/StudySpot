@@ -18,7 +18,6 @@ def results():
         places = json.load(f)
         for place in places:
             candidate = True
-            print(flask.request.form)
             for attr, val in flask.request.form.items():
                 if attr not in checkbox_fields:
                     if val != place[attr]:
@@ -29,7 +28,9 @@ def results():
                         place_id = place["place_id"]
                         api_url = f"https://maps.googleapis.com/maps/api/place/details/json?place_id={place_id}&key={api_key}&fields=opening_hours"
                         response = requests.get(api_url).json()
-                        if not response['result']['opening_hours']['open_now']:
+                        if ('opening_hours' not in response['result'].keys()):
+                            candidate = False
+                        elif not response['result']['opening_hours']['open_now']:
                             candidate = False
                     else:
                         if not place[attr]:
