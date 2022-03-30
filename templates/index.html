@@ -4,7 +4,7 @@
 <head>
     <title>Study Spot</title>
     <link rel="stylesheet" type="text/css" href="/static/css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope">
 </head>
 
 <body>
@@ -12,46 +12,53 @@
         <img src="static/images/StudySpot-logos/StudySpot-logos_transparent.png">
         <h1>Where should you study today?</h1>
     </div>
-    <div class="subhead">
-        <h2>Please select your preferences</h2>
-    </div>
-    <div class="preferences">
-        <form action="/" method="post" enctype="multipart/form-data">
+    <div class="filters">
+        <div class="subhead">
+            <h2>Please select your preferences</h2>
+        </div>
+        <div class="preferences">
+            <form action="/" method="post" enctype="multipart/form-data">
             <p>Noise Level:</p>
+            
             <input type="radio" id="silent" name="noise" value="silent">
-            <label for="silent">Silent</label><br>
+            <label for="silent">Silent</label>
             <input type="radio" id="medium" name="noise" value="medium">
-            <label for="medium">Medium</label><br>
+            <label for="medium">Medium</label>
             <input type="radio" id="loud" name="noise" value="loud">
             <label for="loud">Loud</label>
             <br>
+                
+                
+        </div>
+        <div class="preferences">
+            <p>Location:</p>
+            <input type="radio" id="north" name="location" value="north">
+            <label for="north">North Campus</label>
+            <input type="radio" id="central" name="location" value="central">
+            <label for="central">Central Campus</label>
+            <input type="radio" id="medical" name="location" value="medical">
+            <label for="medical">Medical Campus</label>
+    
+            <br>
+            <br>
+        </div>
+        <div class="preferences">
+            <input type="checkbox" id="open_now" name="open_now" value="open_now">
+            <label for="open_now">Open Now</label>
+    
+            
+            <input type="checkbox" id="food" name="food" value="food">
+            <label for="food">Food</label>
+            
+            <input type="checkbox" id="study_rooms" name="study_rooms" value="study_rooms">
+            <label for="study_rooms">Study Rooms</label><br>
+            <br>
+            <input type="submit" value="Search">
+            <br>
+            <br>
+        </div>
     </div>
-    <div class="preferences">
-        <p>Location:</p>
-        <input type="radio" id="north" name="location" value="north">
-        <label for="north">North Campus</label><br>
-        <input type="radio" id="central" name="location" value="central">
-        <label for="central">Central Campus</label><br>
-        <input type="radio" id="medical" name="location" value="medical">
-        <label for="medical">Medical Campus</label>
-
-        <br>
-        <br>
-    </div>
-    <div class="preferences">
-        <input type="checkbox" id="open_now" name="open_now" value="open_now">
-        <label for="open_now">Open Now</label><br>
-
-        <br>
-        <input type="checkbox" id="food" name="food" value="food">
-        <label for="food">Food</label><br>
-        <br>
-        <input type="checkbox" id="study_rooms" name="study_rooms" value="study_rooms">
-        <label for="study_rooms">Study Rooms</label><br>
-        <input type="submit" value="Search">
-        <br>
-        <br>
-    </div>
+    
 
 
     {% for result in results %}
@@ -59,14 +66,18 @@
         <h2>{{ result.name }}</h2>
         <img src="{{result.img_url}}">
         <div class="card-content">
-            <p>Address: {{ result.address }}</p>
+            <p><a class="bold">Address:</a> <a target="_blank" href="{{ result.link }}">{{ result.address }}</a></p>
             {% if result.food %}
-            <p>This location has food options!</p>
+            <p>Food <img class="check" src="static/images/StudySpot-logos/green-check.png"></p>
+            {% else %}
+            <p>Food <img class="check" src="static/images/StudySpot-logos/red-x.png"></p>
             {% endif %}
             {% if result.study_rooms %}
-            <p>This location has study rooms!</p>
+            <p>Study Rooms <img class="check" src="static/images/StudySpot-logos/green-check.png"></p>
+            {% else %}
+            <p>Study Rooms <img class="check" src="static/images/StudySpot-logos/red-x.png"></p>
             {% endif %}
-            <p>Description: {{ result.description }}</p>
+            <p><a class="bold">Description:</a> {{ result.description }}</p>
             <br>
         </div>
     </div>
