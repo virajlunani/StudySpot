@@ -33,7 +33,7 @@
         "noise": "silent",
         "location": "north",
         "study_rooms": true,
-        "description": "Duderstadt Library is located on north campus with four floors of productive workspace. Many spots to meet as a group on the first and second floors and work by yourself on the third floor. With a cafe on the first floor you can grab any drink and a quick snack."
+        "description": "Duderstadt Library is located on north campus with four floors of productive workspace. Many spots to meet as a group on the first and second floors and work by yourself on the third floor. With a cafe on the first floor and food options including Panda Express and Ahmo's, you can grab any drink and a quick snack."
     },
     {
         "name": "Hatcher Graduate Library",
@@ -57,7 +57,7 @@
         "noise": "medium",
         "location": "central",
         "study_rooms": true,
-        "description": "Literature, Science, and the Arts Building has an open floor plan with many desks and seats to work with others or by yourself. There is also a to-go market which offers you quick snacks and cold sandwiches."
+        "description": "Literature, Science, and the Arts Building has an open floor plan with many desks and seats to work with others or by yourself. There is also a to-go market which offers you food such as quick snacks and cold sandwiches."
     },
     {
         "name": "North Quad",
@@ -69,7 +69,7 @@
         "noise": "loud",
         "location": "central",
         "study_rooms": true,
-        "description": "North Quad is a building with many open spaces throughout to work where you can also reserve study rooms. There is also a dining hall attached to the building."
+        "description": "North Quad is a building with many open spaces throughout to work where you can also reserve study rooms. Feel free to stop by and get some food if you have a meal plan at the North Quad dining hall."
     },
     {
         "name": "Palmer Commons",
