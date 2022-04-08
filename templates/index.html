@@ -73,6 +73,8 @@
             <img src="{{result.img_url}}">
             <div class="card-content">
                 <p><a class="bold">Address:</a> <a target="_blank" href="{{ result.link }}">{{ result.address }}</a></p>
+                <p>Hours of operation:</p>
+                {{result.hours}}
                 {% if result.food %}
                 <p>Food <img class="check" src="static/images/StudySpot-logos/green-check.png"></p>
                 {% else %}
