@@ -9,6 +9,7 @@
         "noise": "medium",
         "location": "central",
         "study_rooms": true,
+        "book_link": "https://umich.libcal.com/spaces?lid=2761",
         "description": "The Shapiro Undergraduate Library is a prime location to meet for a group project, find a study nook, or pull a cram session — fueled with food and drink from the first-floor café. First and second floor are louder and most commonly used to work with others, while third and fourth floor are quiet and focused spaces."
     },
     {
@@ -21,6 +22,7 @@
         "noise": "loud",
         "location": "central",
         "study_rooms": true,
+        "book_link": "https://rossweb.bus.umich.edu/ross-it/student-services/study-rooms/",
         "description": "Ross School of Business is a great spot to meet with groups or work individually. With an open floor plan you are always surrounded by others doing work. With Starbucks and a food cafe located with Ross you will always stay fueled."
     },
     {
@@ -33,6 +35,7 @@
         "noise": "silent",
         "location": "north",
         "study_rooms": true,
+        "book_link": "https://umich-nc.libcal.com/reserve/dc-interview-rooms",
         "description": "Duderstadt Library is located on north campus with four floors of productive workspace. Many spots to meet as a group on the first and second floors and work by yourself on the third floor. With a cafe on the first floor and food options including Panda Express and Ahmo's, you can grab any drink and a quick snack."
     },
     {
@@ -57,6 +60,7 @@
         "noise": "medium",
         "location": "central",
         "study_rooms": true,
+        "book_link": "https://umich-cc.libcal.com/spaces?lid=12623&gid=0",
         "description": "Literature, Science, and the Arts Building has an open floor plan with many desks and seats to work with others or by yourself. There is also a to-go market which offers you food such as quick snacks and cold sandwiches."
     },
     {
@@ -69,6 +73,7 @@
         "noise": "loud",
         "location": "central",
         "study_rooms": true,
+        "book_link": "https://umich-cc.libcal.com/spaces?lid=11578",
         "description": "North Quad is a building with many open spaces throughout to work where you can also reserve study rooms. Feel free to stop by and get some food if you have a meal plan at the North Quad dining hall."
     },
     {
@@ -93,6 +98,7 @@
         "noise": "medium",
         "location": "central",
         "study_rooms": true,
+        "book_link": "https://umich-cc.libcal.com/spaces?lid=11561",
         "description": "Trotter Multicultural Center is a great place for you to meet with your group with many different meeting rooms."
     },
     {
@@ -141,6 +147,7 @@
         "noise": "medium",
         "location": "central",
         "study_rooms": true,
+        "book_link": "https://umich.libcal.com/spaces?lid=4183&gid=0&c=0",
         "description": "Taubman Health Sciences Library supports the research and curricular needs of the university's health sciences schools, Michigan Medicine, and associated disciplines. Collaborate with an expert, get help with assessment and evaluation, and more."
     }
 ]
