@@ -10,7 +10,15 @@
         "location": "central",
         "study_rooms": true,
         "book_link": "https://umich.libcal.com/spaces?lid=2761",
-        "hours": "Monday: Open 24 hours\nTuesday: Open 24 hours\nWednesday: Open 24 hours\nThursday: Open 24 hours\nFriday: 12: 00 AM – 6: 00 PM\nSaturday: 10: 00 AM – 6: 00 PM\nSunday: 10: 00 AM – 12: 00 AM\n",
+        "hours": [
+            "Monday: Open 24 hours",
+            "Tuesday: Open 24 hours",
+            "Wednesday: Open 24 hours",
+            "Thursday: Open 24 hours",
+            "Friday: 12:00 AM – 6:00 PM",
+            "Saturday: 10:00 AM – 6:00 PM",
+            "Sunday: 10:00 AM – 12:00 AM"
+        ],
         "description": "The Shapiro Undergraduate Library is a prime location to meet for a group project, find a study nook, or pull a cram session — fueled with food and drink from the first-floor café. First and second floor are louder and most commonly used to work with others, while third and fourth floor are quiet and focused spaces."
     },
     {
@@ -24,7 +32,15 @@
         "location": "central",
         "study_rooms": true,
         "book_link": "https://rossweb.bus.umich.edu/ross-it/student-services/study-rooms/",
-        "hours": "Monday: 7: 00 AM – 10: 00 PM\nTuesday: 7: 00 AM – 10: 00 PM\nWednesday: 7: 00 AM – 10: 00 PM\nThursday: 7: 00 AM – 10: 00 PM\nFriday: 7: 00 AM – 10: 00 PM\nSaturday: 7: 00 AM – 10: 00 PM\nSunday: 7: 00 AM – 10: 00 PM\n",
+        "hours": [
+            "Monday: 7:00 AM – 10:00 PM",
+            "Tuesday: 7:00 AM – 10:00 PM",
+            "Wednesday: 7:00 AM – 10:00 PM",
+            "Thursday: 7:00 AM – 10:00 PM",
+            "Friday: 7:00 AM – 10:00 PM",
+            "Saturday: 7:00 AM – 10:00 PM",
+            "Sunday: 7:00 AM – 10:00 PM"
+        ],
         "description": "Ross School of Business is a great spot to meet with groups or work individually. With an open floor plan you are always surrounded by others doing work. With Starbucks and a food cafe located with Ross you will always stay fueled."
     },
     {
@@ -38,7 +54,15 @@
         "location": "north",
         "study_rooms": true,
         "book_link": "https://umich-nc.libcal.com/reserve/dc-interview-rooms",
-        "hours": "Monday: Open 24 hours\nTuesday: Open 24 hours\nWednesday: Open 24 hours\nThursday: Open 24 hours\nFriday: Open 24 hours\nSaturday: Open 24 hours\nSunday: Open 24 hours\n",
+        "hours": [
+            "Monday: Open 24 hours",
+            "Tuesday: Open 24 hours",
+            "Wednesday: Open 24 hours",
+            "Thursday: Open 24 hours",
+            "Friday: Open 24 hours",
+            "Saturday: Open 24 hours",
+            "Sunday: Open 24 hours"
+        ],
         "description": "Duderstadt Library is located on north campus with four floors of productive workspace. Many spots to meet as a group on the first and second floors and work by yourself on the third floor. With a cafe on the first floor and food options including Panda Express and Ahmo's, you can grab any drink and a quick snack."
     },
     {
@@ -51,7 +75,15 @@
         "noise": "silent",
         "location": "central",
         "study_rooms": false,
-        "hours": "Monday: 8:00 AM – 7:00 PM\nTuesday: 8: 00 AM – 7: 00 PM\nWednesday: 8: 00 AM – 7: 00 PM\nThursday: 8: 00 AM – 7: 00 PM\nFriday: 8: 00 AM – 5: 00 PM\nSaturday: 10: 00 AM – 6: 00 PM\nSunday: 1: 00 – 7: 00 PM\n",
+        "hours": [
+            "Monday: 8:00 AM – 7:00 PM",
+            "Tuesday: 8:00 AM – 7:00 PM",
+            "Wednesday: 8:00 AM – 7:00 PM",
+            "Thursday: 8:00 AM – 7:00 PM",
+            "Friday: 8:00 AM – 5:00 PM",
+            "Saturday: 10:00 AM – 6:00 PM",
+            "Sunday: 1:00 PM – 7:00 PM"
+        ],
         "description": "Hatcher Graduate Library is a quiet workplace for individuals to get their work done by themselves."
     },
     {
@@ -65,7 +97,15 @@
         "location": "central",
         "study_rooms": true,
         "book_link": "https://umich-cc.libcal.com/spaces?lid=12623&gid=0",
-        "hours": "Monday: 7:00 AM – 12:00 AM\nTuesday: 7: 00 AM – 12: 00 AM\nWednesday: 7: 00 AM – 12: 00 AM\nThursday: 7: 00 AM – 12: 00 AM\nFriday: 7: 00 AM – 12: 00 AM\nSaturday: 12: 00 PM – 6: 00 PM\nSunday: 12: 00 PM – 12: 00 AM\n",
+        "hours": [
+            "Monday: 7:00 AM – 12:00 AM",
+            "Tuesday: 7:00 AM – 12:00 AM",
+            "Wednesday: 7:00 AM – 12:00 AM",
+            "Thursday: 7:00 AM – 12:00 AM",
+            "Friday: 7:00 AM – 12:00 AM",
+            "Saturday: 12:00 PM – 6:00 PM",
+            "Sunday: 12:00 PM – 12:00 AM"
+        ],
         "description": "Literature, Science, and the Arts Building has an open floor plan with many desks and seats to work with others or by yourself. There is also a to-go market which offers you food such as quick snacks and cold sandwiches."
     },
     {
@@ -79,7 +119,15 @@
         "location": "central",
         "study_rooms": true,
         "book_link": "https://umich-cc.libcal.com/spaces?lid=11578",
-        "hours": "Monday: Open 24 hours\nTuesday: Open 24 hours\nWednesday: Open 24 hours\nThursday: Open 24 hours\nFriday: Open 24 hours\nSaturday: Open 24 hours\nSunday: Open 24 hours\n",
+        "hours": [
+            "Monday: Open 24 hours",
+            "Tuesday: Open 24 hours",
+            "Wednesday: Open 24 hours",
+            "Thursday: Open 24 hours",
+            "Friday: Open 24 hours",
+            "Saturday: Open 24 hours",
+            "Sunday: Open 24 hours"
+        ],
         "description": "North Quad is a building with many open spaces throughout to work where you can also reserve study rooms. Feel free to stop by and get some food if you have a meal plan at the North Quad dining hall."
     },
     {
@@ -92,7 +140,15 @@
         "noise": "quite",
         "location": "central",
         "study_rooms": false,
-        "hours": "Monday: 7:00 AM – 11:00 PM\nTuesday: 7: 00 AM – 11: 00 PM\nWednesday: 7: 00 AM – 11: 00 PM\nThursday: 7: 00 AM – 11: 00 PM\nFriday: 7: 00 AM – 11: 00 PM\nSaturday: 8: 00 AM – 4: 00 PM\nSunday: 11: 00 AM – 7: 00 PM",
+        "hours": [
+            "Monday: 7:00 AM – 11:00 PM",
+            "Tuesday: 7:00 AM – 11: 00 PM",
+            "Wednesday: 7:00 AM – 11: 00 PM",
+            "Thursday: 7:00 AM – 11: 00 PM",
+            "Friday: 7:00 AM – 11: 00 PM",
+            "Saturday: 8:00 AM – 4: 00 PM",
+            "Sunday: 11:00 AM – 7: 00 PM"
+        ],
         "description": "Palmer Commons is an open layout with different types of seating from individual tables to booths for groups to use."
     },
     {
@@ -106,7 +162,15 @@
         "location": "central",
         "study_rooms": true,
         "book_link": "https://umich-cc.libcal.com/spaces?lid=11561",
-        "hours": "Monday: 8:00 AM – 12:00 AM\nTuesday: 8: 00 AM – 12: 00 AM\nWednesday: 8: 00 AM – 12: 00 AM\nThursday: 8: 00 AM – 12: 00 AM\nFriday: 8: 00 AM – 12: 00 AM\nSaturday: 10: 00 AM – 12: 00 AM\nSunday: 10: 00 AM – 12: 00 AM",
+        "hours": [
+            "Monday: 8:00 AM – 12:00 AM",
+            "Tuesday: 8:00 AM – 12:00 AM",
+            "Wednesday: 8:00 AM – 12:00 AM",
+            "Thursday: 8:00 AM – 12:00 AM",
+            "Friday: 8:00 AM – 12:00 AM",
+            "Saturday: 10:00 AM – 12:00 AM",
+            "Sunday: 10:00 AM – 12 00 AM"
+        ],
         "description": "Trotter Multicultural Center is a great place for you to meet with your group with many different meeting rooms."
     },
     {
@@ -119,7 +183,15 @@
         "noise": "loud",
         "location": "north",
         "study_rooms": false,
-        "hours": "Monday: 8:00 AM – 5:00 PM\nTuesday: 8: 00 AM – 5: 00 PM\nWednesday: 8: 00 AM – 5: 00 PM\nThursday: 8: 00 AM – 5: 00 PM\nFriday: 8: 00 AM – 5: 00 PM\nSaturday: Closed\nSunday: Closed\n",
+        "hours": [
+            "Monday: 8:00 AM – 5:00 PM",
+            "Tuesday: 8:00 AM – 5:00 PM",
+            "Wednesday: 8:00 AM – 5:00 PM",
+            "Thursday: 8:00 AM – 5:00 PM",
+            "Friday: 8:00 AM – 5:00 PM",
+            "Saturday: Closed",
+            "Sunday: Closed"
+        ],
         "description": "The BBB has many tables and couches if you are getting work done on your laptop. If you need a study break you can also use their ping pong tables."
     },
     {
@@ -132,7 +204,15 @@
         "noise": "medium",
         "location": "north",
         "study_rooms": false,
-        "hours": "Monday: Open 24 hours\nTuesday: Open 24 hours\nWednesday: Open 24 hours\nThursday: Open 24 hours\nFriday: Open 24 hours\nSaturday: Open 24 hours\nSunday: Open 24 hours\n",
+        "hours": [
+            "Monday: Open 24 hours",
+            "Tuesday: Open 24 hours",
+            "Wednesday: Open 24 hours",
+            "Thursday: Open 24 hours",
+            "Friday: Open 24 hours",
+            "Saturday: Open 24 hours",
+            "Sunday: Open 24 hours"
+        ],
         "description": "Ford Motor Company Robotics Building is one of the newest buildings on campus with four open floors where you can work as a group or by yourself."
     },
     {
@@ -145,7 +225,15 @@
         "noise": "medium",
         "location": "north",
         "study_rooms": false,
-        "hours": "Monday: 8:00 AM – 12:00 AM\nTuesday: 8: 00 AM – 12: 00 AM\nWednesday: 8: 00 AM – 12: 00 AM\nThursday: 8: 00 AM – 12: 00 AM\nFriday: 8: 00 AM – 12: 00 AM\nSaturday: 8: 00 AM – 12: 00 AM\nSunday: 8: 00 AM – 12: 00 AM\n",
+        "hours": [
+            "Monday: 8:00 AM – 12:00 AM",
+            "Tuesday: 8:00 AM – 12:00 AM",
+            "Wednesday: 8: 00AM – 12: 00AM",
+            "Thursday: 8:00 AM – 12:00 AM",
+            "Friday: 8:00 AM – 12:00 AM",
+            "Saturday: 8:00 AM – 12:00 AM",
+            "Sunday: 8:00 AM – 12:00 AM"
+        ],
         "description": "GG Brown is open 24/7 with access to computer labs and open work spaces to work with yourself or with a team."
     },
     {
@@ -159,7 +247,15 @@
         "location": "central",
         "study_rooms": true,
         "book_link": "https://umich.libcal.com/spaces?lid=4183&gid=0&c=0",
-        "hours": "Monday: 9:00 AM – 5:00 PM\nTuesday: 9: 00 AM – 5: 00 PM\nWednesday: 9: 00 AM – 5: 00 PM\nThursday: 9: 00 AM – 5: 00 PM\nFriday: 9: 00 AM – 5: 00 PM\nSaturday: Closed\nSunday: Closed\n",
+        "hours": [
+            "Monday: 9:00 AM – 5:00 PM",
+            "Tuesday: 9:00 AM – 5:00 PM",
+            "Wednesday: 9:00 AM – 5:00 PM",
+            "Thursday: 9:00 AM – 5:00 PM",
+            "Friday: 9:00 AM – 5:00 PM",
+            "Saturday: Closed",
+            "Sunday: Closed"
+        ],
         "description": "Taubman Health Sciences Library supports the research and curricular needs of the university's health sciences schools, Michigan Medicine, and associated disciplines. Collaborate with an expert, get help with assessment and evaluation, and more."
     }
 ]
