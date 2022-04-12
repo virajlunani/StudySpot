@@ -5,12 +5,13 @@ body {
 a:link {
   color: green;
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: underline;
+  
 }
 a:visited {
   color: green;
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:hover {
   color: red;
@@ -23,19 +24,24 @@ a:active {
   text-decoration: underline;
 }
 .header > img {
-    float: left;
-    height: 150px;
-    width: auto;
+  float: left;
+  height: 150px;
+  width: auto;
+}
+.tab-text {
+  margin-right: 10px;
+  margin-left: 40px;
+  line-height: 150px;
 }
 .header {
-    font-family: 'Manrope', serif;
-    display: inline-block;
-    font-size:25px;
-    white-space : nowrap;
+  font-family: 'Manrope', serif;
+  display: flex;
+  font-size:25px;
+  white-space : nowrap;
 
-    background-color: lightblue;
-    background-size: cover;
-    width: 100%;
+  background-color: lightblue;
+  background-size: cover;
+  width: 100%;
 }
 .subhead {
     font-family: 'Manrope', serif;
@@ -119,4 +125,18 @@ img {
 a {
     text-decoration: none;
     color: black;
+}
+
+.fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa:hover {
+  color: red;
+}
+
+.liked {
+  color: red
 }

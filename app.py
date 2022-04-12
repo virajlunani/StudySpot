@@ -22,7 +22,6 @@ def results():
     with open('places.json') as f:
         places = json.load(f)
         for place in places:
-            print(flask.request.form)
             candidate = True
             for attr, val in flask.request.form.items():
                 if attr not in checkbox_fields and attr != 'query':
@@ -52,6 +51,42 @@ def results():
         if r in checkbox_results:
             context['results'].append(r)
 
+    # find which are favorited
+    
+    for place in context['results']:
+        place['favorite'] = False
+    if (flask.request.cookies.get('favs') != None):
+        for place_id in flask.request.cookies.get('favs').split(',')[:-1]:
+            for place in context['results']:
+                if place['place_id'] == place_id:
+                    place['favorite'] = True
+
+    sorted_results = []
+    for place in context['results']:
+        if place['favorite']:
+            sorted_results.append(place)
+    for place in context['results']:
+        if not place['favorite']:
+            sorted_results.append(place)
+    context['results'] = sorted_results
+
+    
     context['no_results'] = True if len(context['results']) == 0 else False
 
     return flask.render_template("./index.html", **context)
+
+
+@app.route('/favorites/', methods=['GET', 'POST'])
+def favorites():
+    context={
+        'results':[]
+    }
+
+    with open('places.json') as f:
+        places = json.load(f)
+        for place in places:
+            if (flask.request.cookies.get('favs') != None) and place['place_id'] in flask.request.cookies.get('favs').split(',')[:-1]:
+                place['favorite'] = True
+                context['results'].append(place)
+    context['no_results'] = True if len(context['results']) == 0 else False
+    return flask.render_template("./favorites.html", **context)
