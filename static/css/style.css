@@ -47,6 +47,10 @@ a:active {
     font-size: 14px;
     margin-left: 10px;
 }
+.smallText {
+  font-size: 12px;
+  line-height: 0.7;
+}
 .card {
     outline: 2px solid black;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
